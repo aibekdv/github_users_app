@@ -1,0 +1,45 @@
+name: github_users_api
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.0
+  equatable: ^2.0.5
+  
+  flutter_localizations:
+    sdk: flutter
+
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  connectivity_plus: ^5.0.2
+  flutter_native_splash: ^2.3.7
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    
+flutter_intl:
+  enabled: true
+
+
+# flutter_native_splash settings
+flutter_native_splash:
+  image: assets/splash_logo.png
+  color: "#ffffff"
